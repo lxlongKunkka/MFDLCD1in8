@@ -2,6 +2,7 @@
     "name": "LCD1in8",
     "version": "0.0.0",
     "description": "Mcufriend",
+    "license": "MIT",
     "dependencies": {
         "core": "*",
         "radio": "*"
@@ -21,5 +22,12 @@
         "test.ts"
     ],
     "public": false,
-    "license": "MIT"
+    "targetVersions": {
+        "target": "4.0.18",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj"
 }
